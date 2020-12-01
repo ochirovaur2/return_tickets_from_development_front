@@ -5,7 +5,7 @@
 
 
 ## Back end
-Back https://github.com/ochirovaur2/return_tickets_from_development
+https://github.com/ochirovaur2/return_tickets_from_development
 
 
 tree
