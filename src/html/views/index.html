@@ -1,0 +1,53 @@
+<% var data = {
+  title: "Массовые проблемы"
+  }; %>
+<%= _.template(require('./../includes/header.html').default)(data) %>
+
+<!-- {% extends 'shop/body.html' %}
+{% load static %}
+{% block title %}
+{% if sub_category %}{{ sub_category.title_mcat }}  | Онлайн-магазин Вкусная Лавка {% else %}{% if category %}{{ category.title_cat }}  | Онлайн-магазин Вкусная Лавка{% else %}Каталог | Онлайн-магазин Вкусная Лавка{% endif %}{% endif %}
+{% endblock title %}
+{% block body_section %} -->
+
+<!-- Main -->
+
+	<div class="container" >
+		
+		<div class="mass-problem-section">
+			<form action="#" class="mass-problem-form">
+			        
+		        
+		        
+		        <div class="mass-problem-form__div ">
+		            <input type="text" class="mass-problem-form__input" placeholder="Массовая" id="mass-problem-num-js" >
+		            <label for="name" class="mass-problem-form__label">Массовая</label>
+		        </div>
+		        
+		        <div class="mass-problem-form__btn">
+		            <button class="btn btn_primary-color btn_animated btn-js">
+		                Вперед →
+		            </button>
+		        </div>   
+		           
+		        
+		    </form>
+		    <div class="results">
+		    	<div class="results__box my-small">
+		    		
+		    		<div class="results__description" >
+		    			<p class="paragraph" id='results'>Готово!
+		    			</p>
+		    		</div>
+
+		    	</div>
+		    	
+		    	
+		    </div>
+		</div>
+	</div>
+	
+
+
+
+<%= _.template(require('./../includes/footer.html').default)(data) %>
